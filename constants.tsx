@@ -7,7 +7,7 @@ export const PRODUCTS = [
     id: 1,
     name: "Gobelet Écologique",
     category: "Gobelets",
-    image: "/images/gobelet.jpg",
+    image: "/products/gobelet.jpg",
     description:
       "Gobelet biodégradable conçu pour boissons chaudes et froides, respectueux de l’environnement et parfaitement adapté aux cafés, événements et entreprises.",
     features: ["Biodégradable", "Recyclable", "Résistant", "Contact alimentaire"],
@@ -17,7 +17,7 @@ export const PRODUCTS = [
     id: 2,
     name: "Sachet Kraft",
     category: "Sachets",
-    image: "/images/sachet-kraft.jpg",
+    image: "/products/sachet-kraft.jpg",
     description:
       "Sachet kraft écologique fabriqué en papier recyclé, idéal pour le transport de produits alimentaires et non alimentaires avec une excellente résistance.",
     features: ["Papier recyclé", "Écologique", "Résistant", "Compostable"],
@@ -27,7 +27,7 @@ export const PRODUCTS = [
     id: 3,
     name: "Boîte Kraft – Gamme Pâtisserie & Snacking",
     category: "Boîtes",
-    image: "/images/boite-patisserie.jpg",
+    image: "/products/boite-patisserie.jpg",
     description:
       "Emballage écologique premium, fabriqué en papier kraft recyclé, avec fenêtre transparente en matériau compostable, spécialement conçu pour les gâteaux, donuts, biscuits et produits gourmands.",
     features: ["Fenêtre compostable", "Papier recyclé", "Design premium", "Alimentaire"],
@@ -37,7 +37,7 @@ export const PRODUCTS = [
     id: 4,
     name: "Boîte Kraft Mini – Gamme Pâtisserie",
     category: "Boîtes",
-    image: "/images/boite-mini.jpg",
+    image: "/products/boite-mini.jpg",
     description:
       "Emballage premium en papier kraft recyclé, à fibres naturelles et matériaux compostables. Conçu pour mini pâtisseries, fruits secs, biscuits, chocolats et snacks gourmands.",
     features: ["Mini format", "Fibres naturelles", "Compostable", "Élégant"],
@@ -47,7 +47,7 @@ export const PRODUCTS = [
     id: 5,
     name: "Boîte Kraft – ÉcoSnack",
     category: "Boîtes",
-    image: "/images/boite-ecosnack.jpg",
+    image: "/products/boite-ecosnack.jpg",
     description:
       "Boîte en papier kraft recyclé avec fenêtre transparente, idéale pour snacks, mini pâtisseries, biscuits, chocolats et confiseries. Design naturel, élégant et pratique pour pâtisseries, coffee shops et marques artisanales.",
     features: ["Fenêtre transparente", "Kraft recyclé", "Design naturel", "Pratique"],

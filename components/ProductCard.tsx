@@ -13,10 +13,11 @@ const ProductCard: React.FC<Props> = ({ product }) => {
     <div className="min-w-[260px] bg-stone-50 rounded-3xl overflow-hidden border border-stone-100 shadow hover:shadow-xl transition-all">
       <div className="h-44 overflow-hidden">
         <img
-          src={product.image}
-          alt={product.name}
-          className="w-full h-full object-cover"
-        />
+  src={product.image}
+  alt={product.name}
+  className="w-full h-56 object-cover rounded-xl"
+/>
+
       </div>
 
       <div className="p-5 flex flex-col gap-3">

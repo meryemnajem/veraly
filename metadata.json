@@ -1,0 +1,8 @@
+
+{
+  "name": "Veraly - L'avenir de l'emballage écologique",
+  "description": "Une plateforme moderne pour des solutions d'emballages biodégradables et recyclables, incluant une traçabilité par QR code et un assistant IA pour le choix des matériaux.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}

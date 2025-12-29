@@ -24,9 +24,7 @@ const Navbar: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center">
           <div className="flex items-center gap-2">
-            <div className="bg-emerald-600 p-1.5 rounded-lg">
-              <Leaf className="w-6 h-6 text-white" />
-            </div>
+            <img src="/logo.png" alt="Veraly" className="h-20 w-auto" />
             <div>
               <span className="text-2xl font-bold tracking-tight text-emerald-900">Veraly</span>
               <p className={`text-[10px] font-medium leading-none ${scrolled ? 'text-emerald-700' : 'text-emerald-600/80'}`}>La nouvelle vie des emballages</p>

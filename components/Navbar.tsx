@@ -23,13 +23,23 @@ const Navbar: React.FC = () => {
     <nav className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? 'bg-white/90 backdrop-blur-md shadow-sm py-3' : 'bg-transparent py-5'}`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center">
-          <div className="flex items-center gap-2">
-            <img src="/logo.png" alt="Veraly" className="h-20 w-auto" />
-            <div>
-              <span className="text-2xl font-bold tracking-tight text-emerald-900">Veraly</span>
-              <p className={`text-[10px] font-medium leading-none ${scrolled ? 'text-emerald-700' : 'text-emerald-600/80'}`}>La nouvelle vie des emballages</p>
-            </div>
-          </div>
+          <div className="flex items-center gap-3">
+  <img
+    src="/logo.png"
+    alt="Veraly"
+    className="h-20 w-auto"
+  />
+
+  <div>
+    <span className="text-2xl font-bold tracking-tight text-emerald-900">
+      Veraly
+    </span>
+    <p className={`text-[10px] font-medium leading-none ${scrolled ? 'text-emerald-700' : 'text-emerald-600/80'}`}>
+      La nouvelle vie des emballages
+    </p>
+  </div>
+</div>
+
 
           <div className="hidden md:flex items-center space-x-8">
             {navLinks.map((link) => (

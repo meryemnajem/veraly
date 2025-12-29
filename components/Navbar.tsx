@@ -1,6 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { Menu, X, Leaf } from 'lucide-react';
+import logo from "../assets/logo.png";
 
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -24,11 +25,8 @@ const Navbar: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center">
           <div className="flex items-center gap-3">
-  <img
-    src="/logo.png"
-    alt="Veraly"
-    className="h-20 w-auto"
-  />
+  <img src={logo} alt="Veraly" className="h-10" />
+
 
   <div>
     <span className="text-2xl font-bold tracking-tight text-emerald-900">
